@@ -319,25 +319,6 @@ class _MyWidgetState extends State<MyWidget> {
                         ),
                         SizedBox(height: 10),
                         _buildTimer(),
-
-                        // ElevatedButton(
-                        //   style: ElevatedButton.styleFrom(
-                        //     backgroundColor: Color.fromARGB(255, 243, 136, 175),
-                        //     foregroundColor: Colors.black,
-                        //     padding: EdgeInsets.symmetric(
-                        //         horizontal: 32, vertical: 10),
-                        //   ),
-                        //   onPressed: () {
-                        //     _clearBoard();
-                        //   },
-                        //   child: Text("Reset",
-                        //       style: TextStyle(
-                        //         fontSize: 20,
-                        //         fontWeight: FontWeight.bold,
-                        //         color: Colors.black,
-                        //       )),
-                        // )
-                      ],
                     ),
                   )),
               Expanded(
